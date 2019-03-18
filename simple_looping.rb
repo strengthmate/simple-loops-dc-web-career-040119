@@ -11,20 +11,24 @@ def loop_iterator(number_of_times)
 
 end
 
+
+
 def times_iterator(number_of_times)
     number_of_times.times do
     puts "Welcome to Flatiron School's Web Development Course!"
     end
 end
 
+
+
 def while_iterator(number_of_times)
-    counter = 0
-    while counter <= number_of_times
-     
-      break if counter == number_of_times
-      counter = counter + 1
-    end
-  puts "Welcome to Flatiron School's Web Development Course!"
+  phrase = "Welcome to Flatiron School's Web Development Course!"
+  counter = 0
+  while counter <= number_of_times
+    puts "Welcome to Flatiron School's Web Development Course!"
+    counter += 1
+    break if counter == number_of_times
+  end
 end
  
 
