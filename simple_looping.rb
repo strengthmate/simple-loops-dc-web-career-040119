@@ -26,7 +26,7 @@ def times_iterator(number_of_times)
 end
 
 def while_iterator(number_of_times)
-    counter = 1
+    counter = 0
     while counter <= number_of_times
      
       break if counter == number_of_times
@@ -37,7 +37,7 @@ end
  
 
 def until_iterator(number_of_times)
-  counter = 1
+  counter = 0
   until a > number_of_times do
     puts "Welcome to Flatiron School's Web Development Course!"
     counter = counter + 1
