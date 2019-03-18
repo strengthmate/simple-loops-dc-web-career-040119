@@ -46,7 +46,7 @@ end
 def for_iterator
   phrase = "Welcome to Flatiron School's Web Development Course!"
   checklist = 0..number_of_times
-  for all in checklist 
+  for all in checklist do
     puts phrase
   end
 end
