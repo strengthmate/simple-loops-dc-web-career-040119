@@ -9,14 +9,12 @@ def loop_iterator(number_of_times)
 end
 
 
-
 def times_iterator(number_of_times)
     phrase = "Welcome to Flatiron School's Web Development Course!"
     number_of_times.times do
     puts phrase
     end
 end
-
 
 
 def while_iterator(number_of_times)
@@ -30,7 +28,6 @@ def while_iterator(number_of_times)
 end
  
 
-
 def until_iterator(number_of_times)
   phrase = "Welcome to Flatiron School's Web Development Course!"
   counter = 0
@@ -42,21 +39,11 @@ def until_iterator(number_of_times)
 end
 
 
-
 def for_iterator(number_of_times)
   phrase = "Welcome to Flatiron School's Web Development Course!"
-  checklist = 1..number_of_times
-  for all in checklist do
+  counter = 1..number_of_times
+  for all in counter do
     puts phrase
   end
 end
-
-# def using_for
-# 	checklist = 1..10
-#   for all in checklist 
-#     puts "Wingardium Leviosa"
-#   end
-# end
-
-
 
